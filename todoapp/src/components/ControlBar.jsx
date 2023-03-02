@@ -25,13 +25,13 @@ const ControlBar = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <nav class="shadow-lg bg-purple-600 border-gray-200 px-4 py-1 rounded-sm  w-80">
-      <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <p class="self-center text-lg font-semibold whitespace-nowrap  text-gray-200">
+    <nav className="shadow-lg bg-purple-600 border-gray-200 px-4 py-1 rounded-sm  w-80">
+      <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <p className="self-center text-lg font-semibold whitespace-nowrap  text-gray-200">
           Todo
         </p>
 
-        <div class="inline-flex items-center p-2 ml-3 text-sm text-white    ">
+        <div className="inline-flex items-center p-2 ml-3 text-sm text-white    ">
           {theme === "dark" ? (
             <button onClick={handleThemeSwitch}>
               <UilMoonset size={20} />

@@ -10,7 +10,7 @@ const Body = ({
   handleDelete,
 }) => {
   return (
-    <div class="shadow-lg bg-white dark:bg-gray-900 border-gray-200 px-4 py-2.5 rounded-sm  w-80">
+    <div className="shadow-lg bg-white dark:bg-gray-900 border-gray-200 px-4 py-2.5 rounded-sm  w-80">
       <Input createTodo={createTodo} input={input} setInput={setInput} />
       <ul className="shadow-lg bg-white rounded-lg dark:bg-gray-800 px-2">
         {todos.map((todo, index) => (
